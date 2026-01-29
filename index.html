@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - SaaS Project</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="nav-container">
+        <div class="hamburger" id="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div class="nav-left">
+          <a href="#hero" class="logo">NEXORA</a>
+        </div>
+
+        <nav class="nav-center" id="nav-menu">
+          <a href="#features">Product</a>
+          <a href="#solutions">Solutions</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#">Docs</a>
+          <a href="#" class="mobile-login">Login</a>
+        </nav>
+
+        <div class="nav-right">
+          <a href="#" class="login">Login</a>
+          <button class="cta">Get Started</button>
+        </div>
+      </div>
+    </header>
+
+    <div id="overlay"></div>
+
+    <section id="hero" class="hero reveal">
+      <div class="hero-container">
+        <div class="hero-content">
+          <span class="hero-badge">✨ AI-powered SaaS platform</span>
+
+          <h1>
+            Build faster.<br />
+            Automate smarter.
+          </h1>
+
+          <p>
+            Nexora helps modern teams automate workflows, eliminate repetitive
+            tasks and focus on what really matters — growth.
+          </p>
+
+          <div class="hero-actions">
+            <button class="cta hero-primary">Get Started Free</button>
+            <button class="hero-secondary">Book a Demo</button>
+          </div>
+
+          <div class="hero-stats">
+            <div>
+              <strong>10k+</strong>
+              <span>teams onboarded</span>
+            </div>
+            <div>
+              <strong>32%</strong>
+              <span>faster delivery</span>
+            </div>
+            <div>
+              <strong>99.9%</strong>
+              <span>uptime</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <img
+            src="images/hero-image.jpg"
+            alt="Nexora Platform"
+            class="hero-img"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <div class="features-container">
+        <div class="features-header reveal">
+          <span class="section-badge">Features</span>
+          <h2>Everything you need to scale your workflow</h2>
+          <p>
+            Nexora combines AI automation, real-time collaboration and powerful
+            insights.
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <div class="feature-card reveal">
+            <div class="icon"><i class="fa-solid fa-bolt"></i></div>
+            <h3>AI Automation</h3>
+            <p>
+              Automatically automate repetitive workflows using intelligent
+              triggers.
+            </p>
+          </div>
+
+          <div class="feature-card reveal">
+            <div class="icon"><i class="fa-solid fa-chart-line"></i></div>
+            <h3>Smart Analytics</h3>
+            <p>Get real-time insights into performance and team velocity.</p>
+          </div>
+
+          <div class="feature-card reveal">
+            <div class="icon"><i class="fa-solid fa-users"></i></div>
+            <h3>Team Collaboration</h3>
+            <p>Keep everyone aligned with shared workflows and live updates.</p>
+          </div>
+
+          <div class="feature-card reveal">
+            <div class="icon"><i class="fa-solid fa-plug"></i></div>
+            <h3>Powerful Integrations</h3>
+            <p>Connect Nexora with Slack, Notion, GitHub and more.</p>
+          </div>
+
+          <div class="feature-card reveal">
+            <div class="icon"><i class="fa-solid fa-shield-halved"></i></div>
+            <h3>Enterprise Security</h3>
+            <p>
+              Your data is protected with enterprise-grade security standards.
+            </p>
+          </div>
+
+          <div class="feature-card reveal">
+            <div class="icon"><i class="fa-solid fa-rocket"></i></div>
+            <h3>Fast Onboarding</h3>
+            <p>Get started in minutes with no complex setup required.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="solutions" class="solutions reveal">
+      <div class="solutions-container">
+        <div class="solutions-header">
+          <span class="section-badge">Solutions</span>
+          <h2>Built for teams that move fast</h2>
+          <p>
+            Whether you’re a startup, a growing company or an enterprise team,
+            Nexora adapts to how you work.
+          </p>
+        </div>
+
+        <div class="solution-list">
+          <div class="solution-item reveal">
+            <div class="solution-text">
+              <h3>For startups & founders</h3>
+              <p>
+                Move fast without chaos. Automate internal workflows, track
+                priorities and keep everyone aligned from day one.
+              </p>
+              <ul class="solution-benefits">
+                <li>
+                  <i class="fa-solid fa-check-circle"></i> Faster execution
+                </li>
+                <li>
+                  <i class="fa-solid fa-check-circle"></i> Less operational
+                  overhead
+                </li>
+                <li>
+                  <i class="fa-solid fa-check-circle"></i> Clear ownership
+                </li>
+              </ul>
+            </div>
+
+            <div class="solution-visual">
+              <img
+                src="images/solution-startup.jpg"
+                alt="Startup Solution"
+                class="solution-img"
+              />
+            </div>
+          </div>
+
+          <div class="solution-item reverse reveal">
+            <div class="solution-text">
+              <h3>For product & engineering teams</h3>
+              <p>
+                Reduce bottlenecks and manual coordination. Let AI surface what
+                matters most so teams can focus on shipping.
+              </p>
+              <ul class="solution-benefits">
+                <li>
+                  <i class="fa-solid fa-check-circle"></i> Smart prioritization
+                </li>
+                <li><i class="fa-solid fa-check-circle"></i> Fewer blockers</li>
+                <li>
+                  <i class="fa-solid fa-check-circle"></i> Predictable delivery
+                </li>
+              </ul>
+            </div>
+
+            <div class="solution-visual">
+              <img
+                src="images/solution-engineering.jpg"
+                alt="Engineering Solution"
+                class="solution-img"
+              />
+            </div>
+          </div>
+
+          <div class="solution-item reveal">
+            <div class="solution-text">
+              <h3>For operations & leadership</h3>
+              <p>
+                Gain visibility across teams. Track performance, identify risks
+                and make data-driven decisions in real time.
+              </p>
+              <ul class="solution-benefits">
+                <li>
+                  <i class="fa-solid fa-check-circle"></i> Real-time insights
+                </li>
+                <li>
+                  <i class="fa-solid fa-check-circle"></i> Better planning
+                </li>
+                <li>
+                  <i class="fa-solid fa-check-circle"></i> Scalable processes
+                </li>
+              </ul>
+            </div>
+
+            <div class="solution-visual">
+              <img
+                src="images/solution-leadership.jpg"
+                alt="Leadership Solution"
+                class="solution-img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="pricing reveal">
+      <div class="pricing-container">
+        <!-- HEADER -->
+        <div class="pricing-header">
+          <span class="section-badge">Pricing</span>
+          <h2>Simple, transparent pricing</h2>
+          <p>
+            Start for free. Upgrade when your team grows. No hidden fees. Cancel
+            anytime.
+          </p>
+        </div>
+
+        <!-- PRICING CARDS -->
+        <div class="pricing-grid">
+          <!-- PLAN 1 -->
+          <div class="pricing-card reveal">
+            <h3>Starter</h3>
+            <p class="plan-desc">For individuals & small teams</p>
+
+            <div class="price">
+              <span>$</span>0
+              <small>/month</small>
+            </div>
+
+            <ul class="plan-features">
+              <li>✔ Up to 3 workflows</li>
+              <li>✔ Basic automation</li>
+              <li>✔ Community support</li>
+              <li>✔ Limited integrations</li>
+            </ul>
+
+            <button class="plan-btn secondary">Get started</button>
+          </div>
+
+          <!-- PLAN 2 (HIGHLIGHT) -->
+          <div class="pricing-card featured reveal">
+            <div class="popular-badge">Most Popular</div>
+
+            <h3>Pro</h3>
+            <p class="plan-desc">For growing teams</p>
+
+            <div class="price">
+              <span>$</span>29
+              <small>/month</small>
+            </div>
+
+            <ul class="plan-features">
+              <li>✔ Unlimited workflows</li>
+              <li>✔ Advanced AI automation</li>
+              <li>✔ All integrations</li>
+              <li>✔ Priority support</li>
+              <li>✔ Advanced analytics</li>
+            </ul>
+
+            <button class="plan-btn primary">Start free trial</button>
+          </div>
+
+          <!-- PLAN 3 -->
+          <div class="pricing-card reveal">
+            <h3>Enterprise</h3>
+            <p class="plan-desc">For large organizations</p>
+
+            <div class="price">Custom</div>
+
+            <ul class="plan-features">
+              <li>✔ Custom workflows</li>
+              <li>✔ Dedicated account manager</li>
+              <li>✔ Enterprise security</li>
+              <li>✔ SLA & compliance</li>
+            </ul>
+
+            <button class="plan-btn secondary">Contact sales</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials reveal">
+      <div class="testimonials-container">
+        <!-- HEADER -->
+        <div class="testimonials-header">
+          <span class="section-badge">Testimonials</span>
+          <h2>Trusted by fast-growing teams</h2>
+          <p>
+            Thousands of teams use Nexora to automate workflows and scale with
+            confidence.
+          </p>
+        </div>
+
+        <!-- TESTIMONIAL GRID -->
+        <div class="testimonials-grid">
+          <div class="testimonial-card reveal">
+            <p class="quote">
+              “Nexora completely changed how our team works. We reduced manual
+              tasks by over 40% within the first month.”
+            </p>
+
+            <div class="author">
+              <img
+                src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?q=80&w=200"
+                alt="User"
+              />
+              <div>
+                <strong>Sarah Mitchell</strong>
+                <span>Head of Operations · ScaleUp Inc.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal">
+            <p class="quote">
+              “The AI automation feels like having an extra team member.
+              Everything is clearer, faster and more predictable.”
+            </p>
+
+            <div class="author">
+              <img
+                src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?q=80&w=200"
+                alt="User"
+              />
+              <div>
+                <strong>Daniel Brooks</strong>
+                <span>Product Lead · Fintech Labs</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal">
+            <p class="quote">
+              “We tried multiple tools before Nexora. This is the first platform
+              that actually scales with our processes.”
+            </p>
+
+            <div class="author">
+              <img
+                src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?q=80&w=200"
+                alt="User"
+              />
+              <div>
+                <strong>Emily Carter</strong>
+                <span>CTO · GrowthStack</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq reveal">
+      <div class="faq-container">
+        <!-- HEADER -->
+        <div class="faq-header">
+          <span class="section-badge">FAQ</span>
+          <h2>Frequently asked questions</h2>
+          <p>Everything you need to know before getting started with Nexora.</p>
+        </div>
+
+        <!-- FAQ LIST -->
+        <div class="faq-list">
+          <div class="faq-item reveal">
+            <button class="faq-question">
+              How does the free plan work?
+              <span>+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                The free plan gives you access to core features with limited
+                workflows. You can upgrade anytime as your team grows.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal">
+            <button class="faq-question">
+              Can I cancel my subscription anytime?
+              <span>+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Yes. You can cancel your subscription at any time from your
+                dashboard. No long-term contracts or hidden fees.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal">
+            <button class="faq-question">
+              Does Nexora support integrations?
+              <span>+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Nexora integrates with tools like Slack, Notion, GitHub, Jira
+                and many more. New integrations are added regularly.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal">
+            <button class="faq-question">
+              Is my data secure?
+              <span>+</span>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Absolutely. We use industry-standard encryption, role-based
+                access control and enterprise-grade security practices.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta reveal">
+      <div class="cta-container">
+        <span class="cta-badge">Get Started</span>
+
+        <h2>Start automating your workflow today</h2>
+
+        <p>
+          Join thousands of teams using Nexora to work faster, reduce manual
+          effort and scale with confidence.
+        </p>
+
+        <div class="cta-actions">
+          <button class="cta-primary">Start free trial</button>
+          <button class="cta-secondary">Talk to sales</button>
+        </div>
+
+        <div class="cta-note">No credit card required · Cancel anytime</div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- BRAND -->
+        <div class="footer-brand">
+          <h3>Nexora</h3>
+          <p>AI-powered workflow automation platform for modern teams.</p>
+        </div>
+
+        <!-- LINKS -->
+        <div class="footer-links">
+          <div class="footer-col">
+            <strong>Product</strong>
+            <a href="#features">Features</a>
+            <a href="#solutions">Solutions</a>
+            <a href="#pricing">Pricing</a>
+          </div>
+
+          <div class="footer-col">
+            <strong>Resources</strong>
+            <a href="#">Documentation</a>
+            <a href="#">API Reference</a>
+            <a href="#">Support</a>
+          </div>
+
+          <div class="footer-col">
+            <strong>Company</strong>
+            <a href="#">About</a>
+            <a href="#">Careers</a>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- BOTTOM -->
+      <div class="footer-bottom">
+        <span>© 2025 Nexora. All rights reserved.</span>
+        <div class="footer-legal">
+          <a href="#">Privacy</a>
+          <a href="#">Terms</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
